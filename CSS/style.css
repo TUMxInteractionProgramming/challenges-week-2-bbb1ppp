@@ -1,7 +1,7 @@
 /* Global  */
 * {
     /* #2 #font #faces */
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -31,6 +31,15 @@ li {
     /* #2 #colorful #channelandchat */
     background-color: white;
     list-style-type: none;
+    padding: 16px;
+    font-size: 16px;
+    height: 48px;
+    margin: 6px;
+
+}
+
+li img {
+    vertical-align: middle;
 }
 
 /* Tab bar  */
@@ -40,22 +49,48 @@ li {
 div.message {
     width: 80%;
     margin-bottom: 8px;
-    /* font-size: medium; */
+    margin-left: 2.5%;
 }
 
 div.message p {
     background-color: white;
-    padding: 16 px;
+    padding: 16px;
 }
 
 div.message em {
     font-size: larger;
     font-style: normal;
+}
 
+div.own {
+    margin-left: 17.5%;
 }
 
 button.time {
     background-color: #CDDC39;
     color: black;
     text-transform: uppercase;
+}
+
+div.appbuttons button {
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 13px;
+    border: none;
+    padding: 16px;
+    height: 72px;
+    width: 33%;
+}
+
+div.appbuttons img {
+    display: block;
+    margin: auto;
+}
+
+div.appbuttons button.new {
+    border-bottom: 4px solid #3F51B5;
+}
+
+li.selected-tag {
+    border-left: 4px solid #3F51B5;
 }

@@ -4,6 +4,8 @@
 
 <head>
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <!-- #1 #structure #title -->
     <title>chatter|app</title>
 
@@ -106,15 +108,15 @@
         <!-- #1 #channels #topics -->
         <ul>
             <li>#Yummy <img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="favorite channel"></li>
-            <li>#SevenContinents <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="white star"></li>
+            <li class="selected-tag">#SevenContinents <img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="white star"></li>
             <li>#KillerApp<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="white star"></li>
             <li>#FirstPersonOnMars<img src="https://ip.lfe.mw.tum.de/sections/star.png" alt="favorite channel"></li>
             <li>#Octoberfest<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="white star"></li>
         </ul>
     </div>
     <!-- #1 #channels #buttons -->
-    <div style="background-color:white; padding: 5px;">
-        <button>
+    <div class="appbuttons" style="background-color:white; padding: 5px;">
+        <button class="new">
             <img src="https://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="lightbulb">
             new
         </button>
@@ -137,7 +139,7 @@
             <strong>cheeses.yard.applies</strong>
         </small>
     </h1>
-    <div class="message">
+    <div class="message own">
         <!-- #1 #chat #metadata contains location, weekday, day, and time -->
         <h3>
             <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
