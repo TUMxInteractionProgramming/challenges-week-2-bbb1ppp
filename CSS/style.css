@@ -1,0 +1,61 @@
+/* Global  */
+* {
+    /* #2 #font #faces */
+    font-family: "Arial", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #f5f5f5;
+}
+
+strong,
+button {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+    color: black;
+}
+
+
+/* App bar  */
+.appbanner {
+    background-color: #3F51B5;
+    color: white;
+}
+
+/* Channels list  */
+/*styles for channel area*/
+li {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    list-style-type: none;
+}
+
+/* Tab bar  */
+
+/* Messages */
+/*reduce width of chat messages*/
+div.message {
+    width: 80%;
+    margin-bottom: 8px;
+    /* font-size: medium; */
+}
+
+div.message p {
+    background-color: white;
+    padding: 16 px;
+}
+
+div.message em {
+    font-size: larger;
+    font-style: normal;
+
+}
+
+button.time {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
